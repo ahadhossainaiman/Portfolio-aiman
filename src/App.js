@@ -31,58 +31,62 @@ function App() {
             <Switch>
               <Route path="/" exact>
                 <HomePage />
-                <Particles
+				<Particles
     params={{
 	    "particles": {
 	        "number": {
-	            "value": 260,
+	            "value": 8,
 	            "density": {
-	                "enable": false
-	            }
-	        },
-	        "size": {
-	            "value": 4,
-	            "random": true,
-	            "anim": {
-	                "speed": 4,
-	                "size_min": 0.3
+	                "enable": true,
+	                "value_area": 800
 	            }
 	        },
 	        "line_linked": {
 	            "enable": false
 	        },
 	        "move": {
-	            "random": true,
 	            "speed": 1,
-	            "direction": "top",
 	            "out_mode": "out"
+	        },
+	        "shape": {
+	            "type": [
+	                "image",
+	                "circle"
+	            ],
+	            "image": [
+	                {
+	                    "src": "/react.cd2ab268.svg",
+	                    "height": 20,
+	                    "width": 23
+	                },
+	                {
+	                    "src": "/k8s.2d579d24.svg",
+	                    "height": 20,
+	                    "width": 20
+	                },
+	                {
+	                    "src": "/code.b3b4c4f4.png",
+	                    "height": 20,
+	                    "width": 20
+	                }
+	            ]
+	        },
+	        "color": {
+	            "value": "#CCC"
+	        },
+	        "size": {
+	            "value": 30,
+	            "random": false,
+	            "anim": {
+	                "enable": true,
+	                "speed": 4,
+	                "size_min": 10,
+	                "sync": false
+	            }
 	        }
 	    },
-	    "interactivity": {
-	        "events": {
-	            "onhover": {
-	                "enable": true,
-	                "mode": "bubble"
-	            },
-	            "onclick": {
-	                "enable": true,
-	                "mode": "repulse"
-	            }
-	        },
-	        "modes": {
-	            "bubble": {
-	                "distance": 250,
-	                "duration": 2,
-	                "size": 0,
-	                "opacity": 0
-	            },
-	            "repulse": {
-	                "distance": 400,
-	                "duration": 4
-	            }
-	        }
-	    }
-	}}/>
+	    "retina_detect": false
+	}} />
               </Route>
               <Route path="/about" exact>
                 <AboutPage />

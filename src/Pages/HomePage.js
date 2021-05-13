@@ -16,7 +16,7 @@ function HomePage() {
           <span
             style={{
               text: "1px -1px 18px #09ff00,-1px -3px 2px #92f4af",
-              color: "#4a00e0",
+              color: "#00dcff",
             }}
           >
             {" "}
@@ -54,7 +54,7 @@ function HomePage() {
           For that, I take the help of Google and YouTube. My core skill is
           based on JavaScript and love to do most of the things using
           JavaScript. As a Web developer, I have expertise in ReactJS,
-          JavaScript, ES-6, node.js, vanila.js, HTML, CSS, and many more. I'm
+          JavaScript, ES-6, node.js, Vanila.js, HTML, CSS, and many more. I'm
           highly passionate about JavaScript-based software development
           technologies such as: - MERN Stack (MongoDB, Express.js, React,
           Node.js)

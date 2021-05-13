@@ -12,7 +12,7 @@ function ImageSection() {
           I am<span> Ahad Hossain Aiman</span>
         </h4>
         <p className="about-text">
-          I am Aiman. I am a web developer. I can learn anything at any time.
+          I am Aiman. I am a web developer(MERN). I can learn anything at any time.
           For that, I take the help of Google and YouTube. My core skill is
           based on JavaScript and love to do most of the things using
           JavaScript. As a Web developer, I have expertise in ReactJS,
@@ -34,7 +34,7 @@ function ImageSection() {
             <p>: Ahad Hossain Aiman</p>
             <p>: 22</p>
             <p>: Bangladeshi</p>
-            <p>: English,Banhla</p>
+            <p>: English, Bangla</p>
             <p>: 84 No,South Goran Khilgaon Dhaka 1219</p>
             <p>: Bangladesh</p>
           </div>

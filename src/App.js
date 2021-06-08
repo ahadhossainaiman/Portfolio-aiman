@@ -69,6 +69,7 @@ function App() {
 	                    "height": 20,
 	                    "width": 20
 	                }
+
 	            ]
 	        },
 	        "color": {
